@@ -46,6 +46,7 @@
 .header-bar {
     height: 100vh;
     background-color: var(--black);
+    padding: var(--h5);
 }
 
 .top-bar {
@@ -53,13 +54,15 @@
     justify-content: space-between;
     background-color: var(--black);
     color: var(--white);
-    padding: var(--h5);
     }
 
 .nav-bar {
+    display: none;
+}
+
+.nav-bar.open  {
     display: flex;
     flex-direction: column;
-    padding: var(--h5);
     font-family: var(--sans);
     line-height: 1.5;
     font-size: var(--base-size);
