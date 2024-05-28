@@ -4,18 +4,26 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <nav className="nav-bar">
+        <header className="header-bar">
+            <div className="top-bar">
             <h1>APRIL <span>GROUP</span></h1>
-            <Link to="/properties">PROPERTIES</Link>
-            <Link to="/investors">INVESTORS</Link>
-            <Link to="/about">ABOUT</Link>
-            <Link to="/contact">CONTACT</Link>
-            <Link to="/available-space">AVAILABLE SPACE</Link>
-            <hr />
-            <Link to="/login">LOGIN</Link>
-            <Link to="/investor">INVESTOR</Link>
             <Hamburger />
-        </nav>
+            </div>
+            <nav className="nav-bar">
+            <Link to="/properties"className='link'>PROPERTIES</Link>
+            <Link to="/investors" className='link'>INVESTORS</Link>
+            <Link to="/about"className='link'>ABOUT</Link>
+            <Link to="/contact"className='link'>CONTACT</Link>
+            <Link to="/available-space"className='link'>AVAILABLE SPACE</Link>
+            <hr />
+            <Link to="/login"className='link'>LOGIN</Link>
+            <Link to="/investor"className='link'>INVESTOR</Link>
+            <div className="footer-bar">
+            <Link to="/terms" className='link'>TERMS</Link>
+            <Link to="/privacy" className='link'>PRIVACY</Link>
+            </div>
+            </nav>
+        </header>
     );
 };
 
