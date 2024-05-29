@@ -15,7 +15,7 @@ const Header = () => {
         </ul>
         <h1>WE INVEST, DEVELOP AND MANAGE CREATIVE AND LUXURY OFFICE SPACES, AND REAL ESTATE WITH AND ON BEHALF OF INVESTORS</h1>
         <hr/>
-        <div>&darr; SCROLL TO SEE MORE</div>
+        <div className='scroll-down'>&darr; SCROLL TO SEE MORE</div>
         </div>
        </main>
 

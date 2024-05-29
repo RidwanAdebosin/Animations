@@ -10,8 +10,12 @@ const NavBar = () => {
     return (
         <header className="header-bar">
             <div className="top-bar">
+
             <h1>APRIL <span>GROUP</span></h1>
+                
+            <div className="hambugger">
             <Hamburger toggled={hambuggerIsOpen} toggle={setHambuggerIsOpen} aria-label="Toggle Menu" className="Hambugger"/>
+            </div>
             </div>
             <nav className={`nav-bar ${hambuggerIsOpen ? 'open': ""}`}>
             <Link to="/properties"className='link'>PROPERTIES</Link>

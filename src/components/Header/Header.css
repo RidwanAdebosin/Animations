@@ -68,3 +68,7 @@ ul {
 .company-list li {
   animation: auto-scroll 20s infinite;
 }
+
+.scroll-down {
+    cursor: pointer;
+}
