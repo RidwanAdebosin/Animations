@@ -44,8 +44,6 @@
 }
 
 .header-bar {
-  /* height: 100vh; */
-  background-color: var(--black);
   padding: var(--h5);
   position: fixed;
   width: 100%;
@@ -54,10 +52,10 @@
 h1 span {
   font-weight: 100;
 }
+
 .top-bar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--black);
   color: var(--white);
 }
 
@@ -73,6 +71,7 @@ h1 span {
   font-size: var(--base-size);
   padding-top: var(--h2);
   gap: var(--h6);
+  background-color: var(--black);
 }
 
 .link {
@@ -92,4 +91,15 @@ h1 span {
   display: flex;
   gap: var(--small);
   font-size: var(--small);
+}
+
+@media (min-width: 600px) {
+  .nav-bar{
+    display: block;
+  }
+
+  .top-bar .Hambugger {
+    border: 3px solid red;
+    display: none;
+  }
 }

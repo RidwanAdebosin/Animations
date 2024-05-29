@@ -11,7 +11,7 @@ const NavBar = () => {
         <header className="header-bar">
             <div className="top-bar">
             <h1>APRIL <span>GROUP</span></h1>
-            <Hamburger toggled={hambuggerIsOpen} toggle={setHambuggerIsOpen} aria-label="Toggle Menu"/>
+            <Hamburger toggled={hambuggerIsOpen} toggle={setHambuggerIsOpen} aria-label="Toggle Menu" className="Hambugger"/>
             </div>
             <nav className={`nav-bar ${hambuggerIsOpen ? 'open': ""}`}>
             <Link to="/properties"className='link'>PROPERTIES</Link>
