@@ -22,7 +22,7 @@ const NavBar = () => {
             <hr />
             <Link to="/login"className='link'>LOGIN</Link>
             <Link to="/investor"className='link'>INVESTOR</Link>
-            <div className="footer-bar">
+            <div className="nav-footer-bar">
             <Link to="/terms" className='link'>TERMS</Link>
             <Link to="/privacy" className='link'>PRIVACY</Link>
             </div>
