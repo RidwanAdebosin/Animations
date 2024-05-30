@@ -9,7 +9,8 @@ button {
 }
 
 button:hover {
-
+    transform: translateX(10px);
+    color: var(--orange);
 }
 
 @media (min-width: 800px) {
