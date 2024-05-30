@@ -27,6 +27,7 @@
 
 .main-content h1 {
     font-weight: 400;
+    max-width: 800px;
 }
 
 .main-content hr {
@@ -67,6 +68,7 @@ ul {
 
 .company-list li {
   animation: auto-scroll 20s infinite;
+  /* z-index: 2; */
 }
 
 .scroll-down {

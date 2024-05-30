@@ -1,0 +1,25 @@
+.about-text{
+    max-width: 700px;
+    padding: 2rem 1rem;
+}
+
+.about-text h1 {
+    font-weight: 400;
+    margin-block-end: var(--h5);
+    text-wrap: balance;
+    font-size: 1.5rem;
+}
+
+.about-text span{
+    color: var(--orange);
+}
+
+@media (min-width: 800px) {
+    .about-text h1 {
+        font-weight: 400;
+        margin-block-end: var(--h5);
+        text-wrap: balance;
+        font-size: 2rem;
+    }
+   
+}

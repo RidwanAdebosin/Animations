@@ -3,12 +3,7 @@
     /* colors */
     --white: #ffffff;
     --black: #000;
-    --coffee: #43281c;
-    --vanilla: #f1e3d3;
-    --lemon: #fbf2c0;
-    --mocha: #7f4f24;
-    --tan: #ddb892;
-    --blue: #3e80b6;
+    --orange: #ffa500;
 
     /* fonts */
     --decorative: "Montserrat", sans-serif;
@@ -73,6 +68,7 @@ h1 span {
   padding-top: var(--h2);
   gap: var(--h6);
   background-color: var(--black);
+  /* z-index: 10; */
 }
 
 .link {
@@ -94,7 +90,7 @@ h1 span {
   font-size: var(--small);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .nav-bar{
     display: block;
   }
@@ -109,7 +105,7 @@ h1 span {
   }
   
   .header-bar h1 {
-    margin-top: -1rem;
+    margin-top: -0.5rem;
   }
 
   .header-bar hr {
