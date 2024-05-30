@@ -16,4 +16,18 @@
 
 section h1 {
     padding: var(--h3) 0 0 var(--h3);
+    font-weight: 400;
 }
+
+@media (width >= 800px) {
+    section hr {
+      display: none;
+        
+    }
+
+    section {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 35% 30% 30%);
+    }
+};
