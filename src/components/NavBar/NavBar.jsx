@@ -8,7 +8,7 @@ const NavBar = () => {
 
 
     return (
-        <header className="header-bar">
+        <header className={`header-bar ${hambuggerIsOpen ? "add-header-style": ""}`}>
             <div className="top-bar">
 
             <h1>APRIL <span>GROUP</span></h1>

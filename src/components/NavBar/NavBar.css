@@ -43,6 +43,12 @@
   position: fixed;
   width: 100%;
   color: var(--white);
+  z-index: 99;
+}
+
+.add-header-style{
+  background-color: var(--black);
+  font-weight: 100;
 }
 
 h1 span {
@@ -68,7 +74,6 @@ h1 span {
   padding-top: var(--h2);
   gap: var(--h6);
   background-color: var(--black);
-  /* z-index: 10; */
 }
 
 .link {
