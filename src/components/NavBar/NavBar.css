@@ -4,6 +4,7 @@
     --white: #ffffff;
     --black: #000;
     --orange: #ffa500;
+    --lightgray:#6664649a;
 
     /* fonts */
     --decorative: "Montserrat", sans-serif;
@@ -73,7 +74,6 @@ h1 span {
   font-size: var(--base-size);
   padding-top: var(--h2);
   gap: var(--h6);
-  background-color: var(--black);
 }
 
 .link {
@@ -129,6 +129,4 @@ h1 span {
     justify-content: space-between;
     font-weight: bolder;
   }
-
-  
 }

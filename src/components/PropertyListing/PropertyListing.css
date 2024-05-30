@@ -1,0 +1,48 @@
+.images-wrapper{
+    margin-block-start: 5rem;
+}
+
+.image-container {
+    display: flex;
+    gap: 0.3rem;
+    padding-inline: 1rem;
+    justify-content: center;
+}
+
+.image {
+    width: 80%;
+    margin-block-end: var(--xl);
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.image-name{
+    font-size: large;
+}
+
+.image-address {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--lightgray);
+}
+
+.tag{
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    text-align: end;
+    text-transform: uppercase;
+    color: var(--orange);
+    font-weight: 400;
+}
+
+@media (width >= 800px) {
+    .images-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
