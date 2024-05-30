@@ -1,5 +1,6 @@
 
 import './App.css'
+import UsersReviews from './UsersReview/UsersReview';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <About/>
       <PropertyListing/>
+      <UsersReviews/>
     </>
   )
 }
