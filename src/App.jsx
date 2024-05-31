@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import PropertyListing from './components/PropertyListing/PropertyListing';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <PropertyListing/>
       <UsersReviews/>
+      <Footer/>
     </>
   )
 }
