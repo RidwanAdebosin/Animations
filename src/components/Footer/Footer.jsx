@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import "./Footer.css";
+import '../Button/Button';
 import { Link } from "react-router-dom";
 
 
@@ -28,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <h1>
+      <h1 className="footer-header">
         APRIL <span>GROUP</span>
       </h1>
       <hr />

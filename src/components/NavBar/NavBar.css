@@ -73,7 +73,7 @@ h1 span {
   font-family: var(--sans);
   line-height: 1.5;
   font-size: var(--base-size);
-  padding-top: var(--h2);
+  /* padding-top: var(--h2); */
   gap: var(--h6);
 }
 
