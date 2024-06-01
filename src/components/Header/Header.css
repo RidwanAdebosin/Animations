@@ -1,5 +1,8 @@
 @import url("../NavBar/NavBar.css");
-
+body {
+    font-size: calc(0.75em + 1vmin);
+  }
+  
 .main-landingpage {
     animation: change-background 20s infinite;
     padding-top: 6rem;

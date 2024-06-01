@@ -39,14 +39,18 @@
   }
 }
 
+* {
+  font-size: calc(0.75em + 1vmin);
+}
 
 .header-bar {
   padding: var(--h5);
-  position: fixed;
   width: 100%;
+  position: fixed;
   color: var(--white);
   z-index: 99;
 }
+
 
 .add-header-style{
   background-color: var(--black);
@@ -57,8 +61,15 @@ h1 span {
   font-weight: 100;
 }
 
+.hambugger {
+ 
+  margin-block-start: -15px;
+  position: sticky;
+}
+
 .top-bar {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   color: var(--white);
 }
@@ -73,7 +84,6 @@ h1 span {
   font-family: var(--sans);
   line-height: 1.5;
   font-size: var(--base-size);
-  /* padding-top: var(--h2); */
   gap: var(--h6);
 }
 
@@ -96,7 +106,7 @@ h1 span {
   font-size: var(--small);
 }
 
-@media (min-width: 800px) {
+@media (min-width >= 800px) {
   .nav-bar{
     display: block;
   }
