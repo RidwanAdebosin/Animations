@@ -99,6 +99,24 @@ h1 span {
     display: none;
 }
 
+@media (width >= 100px) {
+    
+    .footer-buttons {
+        display: flex;
+        justify-content: center;
+        gap: var(--h4);
+        margin-block-start: var(--h4);
+    }
+
+    .footer-buttons > * {
+        width: fit-content;
+        font-size: calc(0.55em + 1vmin);
+        height: 20px;
+        padding: 2px;
+    }
+    }
+
+
 @media (width >= 800px) {
     .footer-wrapper {
         display: flex;
